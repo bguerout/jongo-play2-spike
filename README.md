@@ -8,7 +8,7 @@ https://groups.google.com/forum/?hl=fr&fromgroups#!topic/jongo-user/ydYeEaZuU2M
 
 First spike : Share a Mongo and Jongo instance across an application :
 -----------------------------------------------------------------------
-A JongoPlugin has been created and declared into play.plugins file.
+A JongoPlugin has been created and declared into 'conf/play.plugins' file.
 This plugin can be used accros the application using the following snippet : 
 
 ```java
