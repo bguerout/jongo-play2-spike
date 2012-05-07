@@ -19,3 +19,11 @@ This plugin can be used accros the application using the following snippet :
  Jongo jongo = plugin.getJongo("myDatabase");
 ```
 
+Second spike : Create a Jongo Model
+-----------------------------------------------------------------------
+In progress...
+Should look like
+```java
+public class User extends JongoModel {
+...
+```
