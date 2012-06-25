@@ -23,6 +23,7 @@ This plugin can be used accros the application using the following snippet :
 Second spike : Convert this plugin into a Module
 -----------------------------------------------------------------------
 Preview spike does not allow user to reuse JongoPlugin (code and conf files must be copy/paste)
-A Play module should be created and deploy to achieve that.
+
+A Play module should be created and deployed to achieve that.
 
 In progress...
