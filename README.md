@@ -2,6 +2,7 @@ Jongo Play 2.0 Spikes
 =====================================
 
 This project aims to test how jongo can be used with Play 2
+
 It has been created subsequent these 2 questions : 
 
 https://github.com/bguerout/jongo/issues/34
@@ -21,4 +22,7 @@ This plugin can be used accros the application using the following snippet :
 
 Second spike : Convert this plugin into a Module
 -----------------------------------------------------------------------
+Preview spike does not allow user to reuse JongoPlugin (code and conf files must be copy/paste)
+A Play module should be created and deploy to achieve that.
+
 In progress...
