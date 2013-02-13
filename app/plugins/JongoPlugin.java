@@ -50,11 +50,11 @@ public class JongoPlugin extends Plugin {
 
     /**
      * Returns an instance of Jongo opened on the default database. 
-     * The default database is the one configured in the application.conf or 'test' is none is configured.
+     * The default database is the one configured in the application.conf parameter
+     * or an undefined value based on the connection string if none is configured.
      * @return an instance of Jongo opened on the default database. 
      */
     public Jongo getJongo() {
-        System.out.println("getJongo: " + defaultBase);
         return getJongo(defaultBase);
     }
 
